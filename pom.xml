@@ -23,7 +23,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>19</version>
-    <relativePath />
+    <relativePath/>
     <!-- no parent resolution -->
   </parent>
 
@@ -162,7 +162,7 @@
     <spring.framework.security.version>4.2.14.RELEASE</spring.framework.security.version>
     <spring.framework.security.extensions.version>1.0.2.RELEASE</spring.framework.security.extensions.version>
     <opensaml.version>2.6.6</opensaml.version>
-    <aspectj.version>1.8.9</aspectj.version>
+    <aspectj.version>1.9.8</aspectj.version>
     <!-- API forbidden -->
     <forbiddenapis.version>2.3</forbiddenapis.version>
 
@@ -1939,7 +1939,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>

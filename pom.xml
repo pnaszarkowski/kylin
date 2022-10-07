@@ -23,7 +23,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>19</version>
-    <relativePath />
+    <relativePath/>
     <!-- no parent resolution -->
   </parent>
 
@@ -65,7 +65,7 @@
     <kylin.version>3.0.0</kylin.version>
 
     <!-- Hadoop versions -->
-    <hadoop2.version>2.7.1</hadoop2.version>
+    <hadoop2.version>3.3.3</hadoop2.version>
     <yarn.version>2.7.1</yarn.version>
 
     <!-- Hive versions -->
@@ -94,7 +94,7 @@
     <reflections.version>0.9.10</reflections.version>
 
     <!-- Calcite Version, the kylin fork is: https://github.com/Kyligence/calcite -->
-    <calcite.version>1.16.0-kylin-r5</calcite.version>
+    <calcite.version>1.31.0</calcite.version>
     <avatica.version>1.12.0</avatica.version>
 
     <!-- Hadoop Common deps, keep compatible with hadoop2.version -->
@@ -114,7 +114,7 @@
     <commons-pool.version>2.5.0</commons-pool.version>
 
     <!-- Calcite deps, keep compatible with calcite.version -->
-    <jackson.version>2.10.0</jackson.version>
+    <jackson.version>2.13.4</jackson.version>
 
     <!-- Test Dependency versions -->
     <antlr.version>3.4</antlr.version>
@@ -1583,7 +1583,7 @@
     <profile>
       <id>cdh5.7</id>
       <properties>
-        <hadoop2.version>2.6.0-cdh5.7.0</hadoop2.version>
+        <hadoop2.version>3.3.3</hadoop2.version>
         <yarn.version>2.6.0-cdh5.7.0</yarn.version>
         <hive.version>1.1.0-cdh5.7.0</hive.version>
         <hive-hcatalog.version>1.1.0-cdh5.7.0</hive-hcatalog.version>
@@ -1939,7 +1939,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>

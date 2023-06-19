@@ -23,7 +23,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>19</version>
-    <relativePath />
+    <relativePath/>
     <!-- no parent resolution -->
   </parent>
 
@@ -102,7 +102,7 @@
     <curator.version>2.12.0</curator.version>
     <jsr305.version>3.0.1</jsr305.version>
     <!-- kylin use shaded-guava, this version for unify guava version of other dependencies -->
-    <guava.version>14.0</guava.version>
+    <guava.version>32.0.0-android</guava.version>
     <jsch.version>0.1.54</jsch.version>
     <commons-cli.version>1.2</commons-cli.version>
     <commons-lang.version>2.6</commons-lang.version>
@@ -1939,7 +1939,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>

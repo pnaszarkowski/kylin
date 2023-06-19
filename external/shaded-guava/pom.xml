@@ -35,7 +35,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <shadeBase>org.apache.kylin.shaded</shadeBase>
-        <shaded.guava.version>28.2-jre</shaded.guava.version>
+        <shaded.guava.version>32.0.0-jre</shaded.guava.version>
     </properties>
 
     <dependencies>

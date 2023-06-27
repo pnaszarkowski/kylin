@@ -23,7 +23,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>19</version>
-    <relativePath />
+    <relativePath/>
     <!-- no parent resolution -->
   </parent>
 
@@ -79,7 +79,7 @@
     <kafka.version>2.1.1</kafka.version>
 
     <!-- Spark versions -->
-    <spark.version>2.4.5</spark.version>
+    <spark.version>2.4.6</spark.version>
     <kryo.version>4.0.0</kryo.version>
 
     <!-- Flink versions -->
@@ -1939,7 +1939,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>

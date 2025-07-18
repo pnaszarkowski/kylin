@@ -23,7 +23,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>19</version>
-    <relativePath />
+    <relativePath/>
     <!-- no parent resolution -->
   </parent>
 
@@ -65,7 +65,7 @@
     <kylin.version>3.0.0</kylin.version>
 
     <!-- Hadoop versions -->
-    <hadoop2.version>2.7.1</hadoop2.version>
+    <hadoop2.version>3.2.0</hadoop2.version>
     <yarn.version>2.7.1</yarn.version>
 
     <!-- Hive versions -->
@@ -130,7 +130,7 @@
     <guava-testlib.version>28.2-jre</guava-testlib.version>
 
     <!-- Commons -->
-    <commons-lang3.version>3.4</commons-lang3.version>
+    <commons-lang3.version>3.18.0</commons-lang3.version>
     <commons-email.version>1.5</commons-email.version>
     <commons-validator.version>1.4.0</commons-validator.version>
     <commons-compress.version>1.19</commons-compress.version>
@@ -1583,7 +1583,7 @@
     <profile>
       <id>cdh5.7</id>
       <properties>
-        <hadoop2.version>2.6.0-cdh5.7.0</hadoop2.version>
+        <hadoop2.version>3.2.0</hadoop2.version>
         <yarn.version>2.6.0-cdh5.7.0</yarn.version>
         <hive.version>1.1.0-cdh5.7.0</hive.version>
         <hive-hcatalog.version>1.1.0-cdh5.7.0</hive-hcatalog.version>
@@ -1939,7 +1939,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
